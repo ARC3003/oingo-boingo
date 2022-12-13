@@ -1,0 +1,20 @@
+.videos {
+  width: 100%;
+  aspect-ratio: 16/9;
+}
+body {
+  background-image: url(./musicvids_bg.jpg);
+  width: 100%;
+}
+@font-face {
+  font-family: superweird;
+  src: url(./fontz/Super\ Weird.ttf);
+}
+@font-face {
+  font-family: cube;
+  src: url(./fontz/modular.ttf);
+}
+@font-face {
+  font-family: fluid;
+  src: url(./fontz/FLUID\ PERSONAL\ USE.ttf);
+}

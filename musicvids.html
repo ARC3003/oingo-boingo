@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="./musicvids.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav
+      class="p-5 bg-[#312B32] md:flex md:items-center md:justify-between shadow"
+    >
+      <div class="flex justify-between items-center">
+        <span class="text-5xl text-[#F7332C] font-[cube]">
+          <a href="#home" id="home">OINGO BOINGO</a>
+        </span>
+
+        <span class="text-3xl cursor-pointer mx-2 md:hidden block">
+          <ion-icon
+            class="text-white"
+            name="menu"
+            onclick="menu(this)"
+          ></ion-icon>
+        </span>
+      </div>
+
+      <ul
+        class="md:flex md:items-center z-[-1] md:z-auto md:static absolute bg-[#312B32] w-full left-0 text-white md:w-auto md:py-0 py-8 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500"
+      >
+        <li class="mx-5 my-6 md:my-0">
+          <a
+            href="./index.html"
+            class="font-[superweird] hover:text-[#F7332C] duration-500"
+            >HOME</a
+          >
+        </li>
+        <li class="mx-5 my-6 md:my-0">
+          <a
+            href="./about.html"
+            class="font-[superweird] hover:text-[#F7332C] duration-500"
+            >ABOUT</a
+          >
+        </li>
+        <li class="mx-5 my-6 md:my-0">
+          <a
+            href="#./discography"
+            class="font-[superweird] hover:text-[#F7332C] duration-500"
+            >DISCOGRAPHY</a
+          >
+        </li>
+        <li class="mx-5 my-6 md:my-0">
+          <a
+            href="./musicvids.html"
+            class="font-[superweird] hover:text-[#F7332C] duration-500"
+            >MUSIC VIDEOS</a
+          >
+        </li>
+        <li class="mx-5 my-6 md:my-0">
+          <a
+            href="./tours.html"
+            class="font-[superweird] hover:text-[#F7332C] duration-500"
+            >TOURS</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <div
+      class="text-center pt-20 text-8xl sm:pl-20 sm:text-[160px] sm:float-left font-[cube] text-[#00EE7A]"
+    >
+      MUSIC<br />
+      VIDEOS
+    </div>
+    <img src="./imgs/brain.png" width="800px" />
+    <br /><br />
+    <div class="grid gap-5 grid-cols-1 sm:grid-cols-2">
+      <iframe
+        class="videos"
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/iypUpv9xelg"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+      <iframe
+        class="videos"
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/yuxss1kBQWw"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+      <iframe
+        class="videos"
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/ibZdil-Kbjw"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+      <iframe
+        class="videos"
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/teVRZp7K7xU"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe
+      ><iframe
+        class="videos"
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/teVRZp7K7xU"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe
+      ><iframe
+        class="videos"
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/uEZbmALENt4"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
+  </body>
+</html>

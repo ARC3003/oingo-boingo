@@ -1,0 +1,25 @@
+body {
+  background-image: url(./homepagebg.jpg);
+  width: 100%;
+}
+@font-face {
+  font-family: superweird;
+  src: url(./fontz/Super\ Weird.ttf);
+}
+@font-face {
+  font-family: cube;
+  src: url(./fontz/modular.ttf);
+}
+@font-face {
+  font-family: fluid;
+  src: url(./fontz/FLUID\ PERSONAL\ USE.ttf);
+}
+img {
+  width: 200px;
+}
+@media screen and (max-width: 600px) {
+  body {
+    background-color: #140607;
+    background-image: none;
+  }
+}

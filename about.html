@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="./about.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav
+      class="p-5 bg-[#312B32] md:flex md:items-center md:justify-between shadow"
+    >
+      <div class="flex justify-between items-center">
+        <span class="text-5xl text-[#AFE0E7] font-[cube]">
+          <a href="#home" id="home">OINGO BOINGO</a>
+        </span>
+
+        <span class="text-3xl cursor-pointer mx-2 md:hidden block">
+          <ion-icon
+            class="text-white"
+            name="menu"
+            onclick="menu(this)"
+          ></ion-icon>
+        </span>
+      </div>
+
+      <ul
+        class="md:flex md:items-center z-[-1] md:z-auto md:static absolute bg-[#312B32] w-full left-0 text-white md:w-auto md:py-0 py-8 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500"
+      >
+        <li class="mx-5 my-6 md:my-0">
+          <a
+            href="./index.html"
+            class="font-[superweird] hover:text-[#AFE0E7] duration-500"
+            >HOME</a
+          >
+        </li>
+        <li class="mx-5 my-6 md:my-0">
+          <a
+            href="./about.html"
+            class="font-[superweird] hover:text-[#AFE0E7] duration-500"
+            >ABOUT</a
+          >
+        </li>
+        <li class="mx-5 my-6 md:my-0">
+          <a
+            href="./discography.html"
+            class="font-[superweird] hover:text-[#AFE0E7] duration-500"
+            >DISCOGRAPHY</a
+          >
+        </li>
+        <li class="mx-5 my-6 md:my-0">
+          <a
+            href="./musicvids.html"
+            class="font-[superweird] hover:text-[#AFE0E7] duration-500"
+            >MUSIC VIDEOS</a
+          >
+        </li>
+        <li class="mx-5 my-6 md:my-0">
+          <a
+            href="./tours.html"
+            class="font-[superweird] hover:text-[#AFE0E7] duration-500"
+            >TOURS</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <div class="grid grid-cols-2 justify-items-center items-center">
+      <div>
+        <img src="./imgs/abtskull.png" width="400px" />
+      </div>
+      <div><img src="./imgs/portrait.jpeg" width="500px" /></div>
+    </div>
+    <h1 class="font-[cube] text-[#2372a3] text-9xl sm:text-center">ABOUT</h1>
+    <div
+      class="md:flex text-[#AFE0E7] text-[20px] m-20 font-serif sm:text-center"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in velit
+      ligula. Donec tempor finibus massa eget venenatis. Donec tristique
+      sollicitudin finibus. Pellentesque habitant morbi tristique senectus et
+      netus et malesuada fames ac turpis egestas. Maecenas placerat quam at
+      nulla ultrices, vitae imperdiet nisl feugiat. In consectetur turpis ut
+      interdum hendrerit. Phasellus bibendum sapien felis, id finibus risus
+      efficitur in. Vestibulum nec quam augue. Nullam placerat arcu est, ac
+      interdum metus tempus sit amet. Morbi eu ipsum at ante elementum molestie
+      efficitur lacinia augue. Phasellus rhoncus tortor ac ante aliquet
+      pharetra. Maecenas turpis justo, malesuada non nisl quis, feugiat posuere
+      dui. Nunc laoreet rhoncus quam, eget suscipit quam cursus vitae. Duis eu
+      hendrerit lacus. Morbi lacus felis, elementum in ipsum vel, tincidunt
+      convallis massa. Maecenas suscipit sapien massa, non pharetra massa
+      pharetra sit amet.
+    </div>
+  </body>
+</html>

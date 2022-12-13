@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="./tours.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav
+      class="p-5 bg-[#312B32] md:flex md:items-center md:justify-between shadow"
+    >
+      <div class="flex justify-between items-center">
+        <span class="text-5xl text-[#00EE7A] font-[cube]">
+          <a href="#home" id="home">OINGO BOINGO</a>
+        </span>
+
+        <span class="text-3xl cursor-pointer mx-2 md:hidden block">
+          <ion-icon
+            class="text-white"
+            name="menu"
+            onclick="menu(this)"
+          ></ion-icon>
+        </span>
+      </div>
+
+      <ul
+        class="md:flex md:items-center z-[-1] md:z-auto md:static absolute bg-[#312B32] w-full left-0 text-white md:w-auto md:py-0 py-8 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500"
+      >
+        <li class="mx-5 my-6 md:my-0">
+          <a
+            href="./index.html"
+            class="font-[superweird] hover:text-[#00EE7A] duration-500"
+            >HOME</a
+          >
+        </li>
+        <li class="mx-5 my-6 md:my-0">
+          <a
+            href="./about.html"
+            class="font-[superweird] hover:text-[#00EE7A] duration-500"
+            >ABOUT</a
+          >
+        </li>
+        <li class="mx-5 my-6 md:my-0">
+          <a
+            href="./discography.html"
+            class="font-[superweird] hover:text-[#00EE7A] duration-500"
+            >DISCOGRAPHY</a
+          >
+        </li>
+        <li class="mx-5 my-6 md:my-0">
+          <a
+            href="./musicvids.html"
+            class="font-[superweird] hover:text-[#00EE7A] duration-500"
+            >MUSIC VIDEOS</a
+          >
+        </li>
+        <li class="mx-5 my-6 md:my-0">
+          <a
+            href="./tours.html"
+            class="font-[superweird] hover:text-[#00EE7A] duration-500"
+            >TOURS</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <div
+      class="sm:flex sm:pt-20 text-9xl text-center w-full sm:text-[210px] font-[cube] text-[#C11632]"
+    >
+      <img src="./imgs/tourskull.png" class="w-full sm:w-2/6 pt-20" />
+      <h1>
+        TOURS
+        <div
+          class="text-5xl font-serif text-[#AFE0E7] text-center p-10 leading-loose sm:mr-40"
+        >
+          Currently no upcoming tours. This page will update accordingly.
+        </div>
+      </h1>
+    </div>
+  </body>
+</html>

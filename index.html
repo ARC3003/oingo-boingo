@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <link href="./home.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- NAVBAR START -->
+    <nav
+      class="p-5 bg-[#312B32] md:flex md:items-center md:justify-between shadow"
+    >
+      <div class="flex justify-between items-center">
+        <span class="text-5xl text-[#C92355] font-[cube]">
+          <a href="#home" id="home">OINGO BOINGO</a>
+        </span>
+
+        <span class="text-3xl cursor-pointer mx-2 md:hidden block">
+          <ion-icon
+            class="text-white"
+            name="menu"
+            onclick="menu(this)"
+          ></ion-icon>
+        </span>
+      </div>
+
+      <ul
+        class="md:flex md:items-center z-[-1] md:z-auto md:static absolute bg-[#312B32] w-full left-0 text-white md:w-auto md:py-0 py-8 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500"
+      >
+        <li class="mx-5 my-6 md:my-0">
+          <a
+            href="./index.html"
+            class="font-[superweird] hover:text-[#C92355] duration-500"
+            >HOME</a
+          >
+        </li>
+        <li class="mx-5 my-6 md:my-0">
+          <a
+            href="./about.html"
+            class="font-[superweird] hover:text-[#C92355] duration-500"
+            >ABOUT</a
+          >
+        </li>
+        <li class="mx-5 my-6 md:my-0">
+          <a
+            href="./discography.html"
+            class="font-[superweird] hover:text-[#C92355] duration-500"
+            >DISCOGRAPHY</a
+          >
+        </li>
+        <li class="mx-5 my-6 md:my-0">
+          <a
+            href="./musicvids.html"
+            class="font-[superweird] hover:text-[#C92355] duration-500"
+            >MUSIC VIDEOS</a
+          >
+        </li>
+        <li class="mx-5 my-6 md:my-0">
+          <a
+            href="./tours.html"
+            class="font-[superweird] hover:text-[#C92355] duration-500"
+            >TOURS</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <!-- NAVBAR END -->
+    <script src="index.js"></script>
+    <h1
+      class="sm:float-right text-8xl text-center sm:w-3/6 sm:text-[170px] pt-20 pl-30 font-[cube] text-[#C11632]"
+    >
+      OINGO BOINGO
+    </h1>
+
+    <h1 class="font-[fluid] text-[#C11632] text-5xl text-center">contact</h1>
+    <div
+      class="flex grid grid-cols-2 align-items-center w-3/6 p-10 float-right"
+    >
+      <div>
+        <img src="./imgs/birdapp.png" />
+      </div>
+      <div><img src="./imgs/fotoapp.png" /></div>
+    </div>
+    <h1 class="font-[fluid] text-[#C11632] text-5xl text-center">listen</h1>
+    <div class="flex grid grid-cols-2 align-items-center float-right">
+      <div>
+        <a href="https://music.apple.com/us/artist/oingo-boingo/93615"
+          ><img src="./imgs/appleicon.png"
+        /></a>
+      </div>
+      <div>
+        <a
+          href="https://open.spotify.com/artist/5LXEAEGrpKQtpyCu2sZuWu?autoplay=true>"
+          ><img src="./imgs/spooticon.png"
+        /></a>
+      </div>
+    </div>
+  </body>
+</html>
